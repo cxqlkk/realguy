@@ -26,9 +26,12 @@
 				<configuration>
 					<version>2.5</version>
 					<webXml>WebContent\WEB-INF\web.xml</webXml>
+					 <warSourceDirectory>WebContent</warSourceDirectory> 
+				
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>jmlg</finalName>
 	</build>
 
 </project>
